@@ -461,3 +461,95 @@ footer div i{
     color: #485563;
 }
 
+@media (min-width:1200px){
+    .hamburger{
+        z-index:23514;
+    }
+}
+@media (max-width:1200px){
+    
+    .fat{
+        display:flex;
+    }
+    .navlist ul{
+        display:none;
+    }
+}
+
+@media (max-width:768px){
+    
+    .service-item{
+        width: 80%;
+    }
+    .about{
+        flex-direction: column;
+        gap:50px;
+        position:relative;
+        padding-bottom: 5rem;
+    }
+    .image{
+        margin: 0 auto;
+        left:-15px;
+    }
+    .about .image img{
+        width: 25rem;
+        
+    }
+    .resume{
+        width: 80%;
+        position: absolute;
+        top:40rem;
+        
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    .contact{
+        position: relative;
+        margin-top: 50rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes text_reveal {
+    100% {
+        color: chocolate;
+    }
+}
+
+
+@keyframes sadık{
+    100% {
+        transform: translate(550px);
+    }
+}
